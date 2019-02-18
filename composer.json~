@@ -1,0 +1,11 @@
+{
+    "name": "kholifo/project",
+    "description": "brain-games",
+    "authors": [
+        {
+            "name": "kholifo",
+            "email": "holifo@yandex.ru"
+        }
+    ],
+    "require": {}
+}
