@@ -1,8 +1,9 @@
-##Brain games!
+h1 Brain games!
+***
 
-#Install:
-https://asciinema.org/a/aoyZoSMSI4b23rADJPhYYuj4N
+h2 Install:
+[![asciicast](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt.svg)](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt)
 
-#Tests:
-https://codeclimate.com/github/kholifo/project-lvl1-s446
-https://travis-ci.org/kholifo/project-lvl1-s446
+h2 Tests:
+* [codeclimate.com](https://codeclimate.com/github/kholifo/project-lvl1-s446)
+* [travis-ci.org](https://travis-ci.org/kholifo/project-lvl1-s446)
