@@ -5,4 +5,10 @@
 ***
 
 ## Install:
+Brain-game (Welcome)
+[![asciicast](https://asciinema.org/a/aoyZoSMSI4b23rADJPhYYuj4N.svg)](https://asciinema.org/a/aoyZoSMSI4b23rADJPhYYuj4N)
+Brain-even
 [![asciicast](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt.svg)](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt)
+Brain-calc
+[![asciicast](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT.svg)](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT)
+
