@@ -2,6 +2,7 @@
 namespace BrainGames\IsEven;
 use function \cli\line;
 use function \cli\prompt;
+const ROUNDS = 3;
 function run()
 {
     line('Welcome to the Brain Games!');
@@ -9,7 +10,7 @@ function run()
     $name = prompt('May I have your name?');
     line("Hello, {$name}!" . PHP_EOL);
     $rounds = 3;
-    for ($currentRound = 0; $currentRound < $rounds; $currentRound++) {
+    for ($currentRound = 0; $currentRound < $ROUNDS; $currentRound++) {
         $question = rand(1, 100);
         $correctAnswer = isEven($question) ? 'yes' : 'no';
         line('Question: ' . $question);
