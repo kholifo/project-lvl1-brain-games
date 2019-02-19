@@ -12,8 +12,9 @@
   "autoload": {
     "files":[
         "src/Cli.php",
-        "src/IsEven.php",
-        "src/brain-calc"
+        "src/games/IsEven.php",
+        "src/games/Calc.php",
+        "src/GameEngine.php"
     ]
   },
   "require": {
