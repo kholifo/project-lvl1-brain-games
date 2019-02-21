@@ -12,4 +12,4 @@
 - Brain-calc
 [![asciicast](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT.svg)](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT)
 - Brain-gcd
-
+[![asciicast](https://asciinema.org/a/aRu6rb6LsjXrxg1TkO5lCVUer.svg)](https://asciinema.org/a/aRu6rb6LsjXrxg1TkO5lCVUer)

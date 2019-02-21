@@ -16,6 +16,7 @@ function run()
         $answer = (string)(calculate($firstNumber, $secondNumber, $sign));
         return [$question, $answer];
     };
+    
     game(TASK, $GameData);
 }
 
