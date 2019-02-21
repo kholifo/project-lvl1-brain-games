@@ -19,10 +19,9 @@ function run()
     };
 
     game(TASK, $GameData);
-
 }
 
 function gcd($a, $b)
 {
-    return ($a % $b) ? gcd($b,$a % $b) : $b;
+    return ($a % $b) ? gcd($b, $a % $b) : $b;
 }
