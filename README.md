@@ -6,10 +6,12 @@
 
 ## Install:
 * Brain-game (Welcome)
-[![asciicast](https://asciinema.org/a/aoyZoSMSI4b23rADJPhYYuj4N.svg)](https://asciinema.org/a/aoyZoSMSI4b23rADJPhYYuj4N)
+[Watch](https://asciinema.org/a/aoyZoSMSI4b23rADJPhYYuj4N)
 - Brain-even
-[![asciicast](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt.svg)](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt)
+[Watch](https://asciinema.org/a/i6bREItENEbdE613vNe2SCPXt)
 - Brain-calc
-[![asciicast](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT.svg)](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT)
+[Watch](https://asciinema.org/a/YavkxlEKA1NVCV9BmhD8zfwiT)
 - Brain-gcd
-[![asciicast](https://asciinema.org/a/aRu6rb6LsjXrxg1TkO5lCVUer.svg)](https://asciinema.org/a/aRu6rb6LsjXrxg1TkO5lCVUer)
+[Watch](https://asciinema.org/a/aRu6rb6LsjXrxg1TkO5lCVUer)
+- Brain-progression
+[Watch](https://asciinema.org/a/3hiqj0j0nBS7ayBFO5niWd4ZB)
