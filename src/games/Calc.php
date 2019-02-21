@@ -8,7 +8,7 @@ const SIGNS = ['+', '-', '*'];
 
 function run()
 {
-    $GameData = function () {
+    $getGameData = function () {
         $firstNumber = rand(1, 10);
         $sign = SIGNS[array_rand(SIGNS)];
         $secondNumber = rand(1, 10);
@@ -17,7 +17,7 @@ function run()
         return [$question, $answer];
     };
     
-    game(TASK, $GameData);
+    game(TASK, $getGameData);
 }
 
 function calculate($firstNumber, $secondNumber, $sign)

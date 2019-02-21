@@ -6,14 +6,14 @@ use function \cli\prompt;
 
 const ROUNDS = 3;
 
-function game($TASK, $GameData)
+function game($TASK, $getGameData)
 {
     line("Welcome to the Brain Game!");
     line($TASK . PHP_EOL);
     $name = prompt("May I have your name?", false, ' ');
     line("Hello, {$name}!" . PHP_EOL);
     for ($currentRound = 1; $currentRound <= ROUNDS; $currentRound += 1) {
-        [$question, $answer] = $GameData();
+        [$question, $answer] = $getGameData();
         
         line("Question: {$question}");
         $currentAnswer = prompt("Your answer");

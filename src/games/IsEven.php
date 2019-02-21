@@ -6,12 +6,12 @@ const TASK = 'Answer "yes" if number even otherwise answer "no".' . PHP_EOL;
 
 function run()
 {
-    $GameData = function () {
+    $getGameData = function () {
         $question = rand(1, 100);
         $answer = getAnswer($question);
         return [$question, $answer];
     };
-    game(TASK, $GameData);
+    game(TASK, $getGameData);
 }
 
 function getAnswer($question)
