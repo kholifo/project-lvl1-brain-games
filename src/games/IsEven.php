@@ -2,7 +2,7 @@
 namespace BrainGames\games\IsEven;
 use function BrainGames\GameEngine\game;
 
-const TASK = 'Answer "yes" if number even otherwise answer "no".' . PHP_EOL;
+const TASK = 'Answer "yes" if number even otherwise answer "no".';
 
 function run()
 {
