@@ -14,7 +14,8 @@
         "src/Cli.php",
         "src/games/IsEven.php",
         "src/games/Calc.php",
-        "src/GameEngine.php"
+        "src/GameEngine.php",
+        "src/games/Gcd.php"
     ]
   },
   "require": {
@@ -26,7 +27,8 @@
   "bin": [
     "bin/brain-games",
     "bin/brain-even",
-    "bin/brain-calc"
+    "bin/brain-calc",
+    "bin/brain-gcd"
   ],
   "scripts": {
     "phpcs": "phpcs"

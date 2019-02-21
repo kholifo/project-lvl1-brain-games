@@ -2,8 +2,10 @@
 
 namespace BrainGames\games\Calc;
 use function BrainGames\GameEngine\game;
+
 const TASK = 'What is the result of the expression?';
 const SIGNS = ['+', '-', '*'];
+
 function run()
 {
     $GameData = function () {
@@ -16,6 +18,7 @@ function run()
     };
     game(TASK, $GameData);
 }
+
 function calculate($firstNumber, $secondNumber, $sign)
 {
     switch ($sign) {
