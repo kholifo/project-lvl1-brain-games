@@ -16,16 +16,17 @@ function run()
     game(TASK, $getGameData);
 }
 
-function Prime($n) 
+function Prime($number)
 {
-	if ($n == 1) {
-		return false;
-	}
+    if ($number == 1) {
+        return false;
+    }
 
-	for($d = 2; $d * $d <= $n; $d++){ 
-		if($n % $d == 0) 
-			return false;
-		}
+    for ($d = 2; $d * $d <= $number; $d++) {
+        if ($number % $d == 0) {
+            return false;
+        }
+    }
 
-	return true;
+    return true;
 }
