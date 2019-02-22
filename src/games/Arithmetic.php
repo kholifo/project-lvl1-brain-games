@@ -9,17 +9,17 @@ const AMOUNT = 10;
 function run()
 {
     $getGameData = function () {
-        $number = rand(1, 10);
+        $firstNumber = rand(1, 10);
         $step = rand(1, 10);
 
-        $i = $number + $step * AMOUNT - 1;
+        $endNumber = $firstNumber + $step * AMOUNT - 1;
 
-        $hideElement = rand(0, AMOUNT - 1);
+        $hiddenElementPosition = rand(0, AMOUNT - 1);
 
-        $progression = range($number, $i, $step);
+        $progression = range($firstNumber, $endNumber, $step);
         $progressionWithHiddenElement = array_slice($progression, 0);
-        $answer = (string) $progression[$hideElement];
-        $progressionWithHiddenElement[$hideElement] = '..';
+        $answer = (string) $progression[$hiddenElementPosition];
+        $progressionWithHiddenElement[$hiddenElementPosition] = '..';
 
         $question = implode(' ', $progressionWithHiddenElement);
 

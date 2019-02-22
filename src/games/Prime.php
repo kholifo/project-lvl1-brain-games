@@ -9,16 +9,16 @@ function run()
 {
     $getGameData = function () {
         $question = rand(1, 100);
-        $answer = Prime($question) ? 'yes' : 'no';
+        $answer = IsPrime($question) ? 'yes' : 'no';
         return [$question, $answer];
     };
 
     game(TASK, $getGameData);
 }
 
-function Prime($number)
+function IsPrime($number)
 {
-    if ($number == 1) {
+    if ($number < 2) {
         return false;
     }
 
