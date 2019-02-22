@@ -15,3 +15,5 @@
 [Watch](https://asciinema.org/a/aRu6rb6LsjXrxg1TkO5lCVUer)
 - Brain-progression
 [Watch](https://asciinema.org/a/3hiqj0j0nBS7ayBFO5niWd4ZB)
+- Brain-prime
+[Watch](https://asciinema.org/a/XWJZLgNaK8bdBuau8TKtavBC6)
